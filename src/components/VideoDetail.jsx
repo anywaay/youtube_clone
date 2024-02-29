@@ -28,20 +28,20 @@ const VideoDetail = () => {
 
   return (
     <Box minHeight="95vh">
-      <Stack direction={{xs: 'column', md: 'row'}}>
+      <Stack marginLeft={8} marginRight={8} gap={3} direction={{xs: 'column', md: 'row'}}>
         <Box flex={1}>
           <Box sx={{width: '100%', position: 'sticky', top: '86px'}}>
-            <ReactPlayer url={`https://www.youtube.com/watch?v=${id}`} 
+            <ReactPlayer playing="true" url={`https://www.youtube.com/watch?v=${id}`} 
             className="react-player" controls  />
-            <Typography color='#fff' variant="h5" fontWeight="bold" p={2}>
+            <Typography color='#fff' variant="h5" fontWeight="bold"  py={2}>
               {title}
             </Typography>
             <Stack direction="row" justifyContent="space-between" sx={{
-              color:'#fff' }} py={1} px={2} >
+              color:'#fff' }} py={1} >
                 <Link to={`/channel/${channelId}`}>
-                    <Typography variant={{sm: 'subtitle1', md: 'h6'}} color='#fff' >
+                    <Typography variant={{sm: 'subtitle1', md: 'h6'}} color='rgba(243, 243, 243, 0.959)' fontSize={20} >
                       {channelTitle}
-                      <CheckCircle sx={{fontSize: '12px', color: 'gray', ml: '5px' }} />
+                      <CheckCircle sx={{fontSize: '14px', color: 'gray', ml: '5px' }} />
                     </Typography>
                 </Link>
                 <Stack direction="row" gap="20px" alignItems="center" >
