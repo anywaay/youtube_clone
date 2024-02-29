@@ -4,7 +4,7 @@ This project is a YouTube clone created using React. It utilizes the RapidAPI fo
 
 ## Deployed Project
 
-You can check the deployed project [here](https://yt-web-clone.web.app/).
+**Check out the deployed project [here](https://yt-web-clone.web.app/)!**
 
 ## Getting Started
 
