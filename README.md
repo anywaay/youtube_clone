@@ -36,3 +36,26 @@ To run the application locally, use the following command:
 
 ```bash
 npm start
+```
+
+
+This will start the app in development mode. Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
+
+The page will automatically reload if you make changes to the source code. You will also see any lint errors in the console.
+
+## Features
+
+- Browse trending videos
+- Explore various categories
+- Search for specific videos or channels
+- Watch videos within the application
+- Responsive design for various screen sizes
+
+## Credits
+
+- This project utilizes the RapidAPI for YouTube for fetching video data.
+- This project was bootstrapped with Create React App.
+
+
+
+
