@@ -2,6 +2,10 @@
 
 This project is a YouTube clone created using React. It utilizes the RapidAPI for YouTube to fetch video data. The application allows users to browse trending videos, explore various categories, search for specific videos or channels, and watch videos within the application. This README will guide you on how to use and run the application.
 
+## Deployed Project
+
+You can check the deployed project [here](https://yt-web-clone.web.app/).
+
 ## Getting Started
 
 ### Prerequisites
