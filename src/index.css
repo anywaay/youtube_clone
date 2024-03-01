@@ -63,9 +63,13 @@ a {
   transition: all 0.3s ease;
 }
 
+
 @media screen and (max-width: 900px) {
   .category-btn{
     margin: 10px;
+  }
+  .videodetail-page{
+    margin: 10px 40px;
   }
 }
 
@@ -79,11 +83,30 @@ a {
   .scroll-horizontal {
     overflow: auto !important;
   }
-
   .react-player {
     height: 45vh !important;
   }
   .search-bar{
     width:200px;
+  }
+}
+@media screen and (max-width: 450px){
+  .youtube-logo{
+    width: 150px;
+    scale: 0.8;
+  }
+  .search-bar-whole{
+    scale: 0.8;
+    translate: 20px;
+  }
+  .search-bar{
+    width: 120px;
+  }
+  .videos-block{
+    justify-content: center;
+    margin-right: 25px;
+  }
+  .videodetail-page{
+    margin: 10px 10px;
   }
 }

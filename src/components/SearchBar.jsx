@@ -20,6 +20,7 @@ const SearchBar = () => {
 
   return (
     <Paper 
+    className='search-bar-whole'
       component="form" onSubmit={ handleSubmit }
       sx={{
         borderRadius: 20,

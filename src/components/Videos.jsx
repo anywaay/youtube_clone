@@ -7,8 +7,8 @@ const Videos = ( {videos,direction} ) => {
     if(!videos?.length) return "Loading..."
     // console.log(videos[0]);
     return (
-        <Stack direction= { direction || "row"} flexWrap="wrap"
-        justifyContent="start" gap={3} mt={9}>
+        <Stack className='videos-block' direction= { direction || "row"} flexWrap="wrap"
+        justifyContent="start" gap={3} mt={2}>
             {videos.map((item, idx)=>(
                 <Box key={idx} >
                     {item.id.videoId && <VideoCard video={item}/>}

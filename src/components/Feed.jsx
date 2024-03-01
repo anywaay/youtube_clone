@@ -28,8 +28,8 @@ const Feed = () => {
           @ Copyright 2022 Youtube Media          
         </Typography>
       </Box>
-      <Box  pt={0} pb={2} pl={3} sx={{overflowY: 'auto', height: '90vh', flex: 2}}>
-        <Typography variant='h4' fontWeight="bold" position='fixed'  pb={2} sx={{
+      <Box  pt={2} pb={2} pl={3} sx={{overflowY: 'auto', height: '90vh', flex: 2}}>
+        <Typography variant='h4' fontWeight="bold"   pb={2} sx={{
           color: 'white',  backgroundColor: 'black', width: {sx: 'auto', md: "100vw"}
         }}  >
          {selectedCategory}  <span style={{color: '#F31503'}}> Videos </span>

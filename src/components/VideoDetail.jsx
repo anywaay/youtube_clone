@@ -27,9 +27,9 @@ const VideoDetail = () => {
     const { snippet: { title, channelId, channelTitle }, statistics: { viewCount, likeCount } } = videoDetail;
 
   return (
-    <Box minHeight="95vh">
-      <Stack marginLeft={8} marginRight={8} gap={3} direction={{xs: 'column', md: 'row'}}>
-        <Box flex={1}>
+    <Box minHeight="95vh" className="videodetail-page" marginLeft={{lg:'40px', md:'20px', sm:'15px'}} marginRight={{lg:'40px', md: '20px', sm:'15px'}}  >
+      <Stack gap={3} direction={{xs: 'column', md: 'row'}}>
+        <Box flex={1} >
           <Box sx={{width: '100%', position: 'sticky', top: '86px'}}>
             <ReactPlayer playing="true" url={`https://www.youtube.com/watch?v=${id}`} 
             className="react-player" controls  />
